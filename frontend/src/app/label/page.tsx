@@ -37,8 +37,10 @@ const LabelPage: React.FC = () => {
     answers: [],
   });
 
-  const answerOptions = ["inside", "near", "far", "front"];
-  const answerOptionsShow = ["in", "near", "far from", "in front of"];
+  // const answerOptions = ["inside", "near", "far", "front"];
+  // const answerOptionsShow = ["in", "near", "far from", "in front of"];
+  const answerOptions = ["next", "at", "outside", "adjacent", "within", "around", "by"];
+  const answerOptionsShow = ["next to", "at", "outside", "adjacent to", "within", "around", "by"];
   const handleOptionChange = (optionIndex: number, value: string) => {
     setSelectedLabel((prevSelected) => {
       const newSelected = [...prevSelected];

@@ -45,7 +45,7 @@ const InstructionButton: React.FC = () => {
           style: { backgroundColor: "#1890ff", borderColor: "#1890ff" },
         }}
         centered
-        width={1000}
+        width={1500}
       >
         <div className="text-3xl font-semibold text-center mb-2">
           <h1>Instruction</h1>
@@ -98,7 +98,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1148675244324823080/image.png?ex=65e75a2f&is=65d4e52f&hm=116cfeb2d4ad20f96c80882dc81abe77d9eb6d6fc8813ab990a8d95b63dc068d&=&format=webp&quality=lossless&width=634&height=1138"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+20.47.57.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -216,7 +216,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1157237162572525598/y03Yrv5klKQYDZ0P1JTdjTVb1knIjI83RbOKaB9XtGzKabFLr6rLA-SyLcmnbEnVCPTN4jL64kmN8MMs8kspPpz_ZfhC0Oj8ExO9Qc52gXFfxNnNLDt9RHkYQEzK.png?ex=65ead097&is=65d85b97&hm=8afd8ee52e1e6ec6cd16b618ba4e1e0164898d5a65c60e8c78d3a596bcab17df&=&format=webp&quality=lossless&width=446&height=700"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.09.53.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -232,7 +232,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1150761986729197628/image.png?ex=65e5b71d&is=65d3421d&hm=3df1b4b24372f1f20b21abd7dba70e5978e4cde6a306bf096cd146cd882431f2&=&format=webp&quality=lossless&width=730&height=1138"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.10.27.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -266,7 +266,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1150762323624079443/image.png?ex=65e5b76e&is=65d3426e&hm=c9eaaac93c094c440627785f85aa5b62d889b5ceda5bcd1c065c08208ad5af02&=&format=webp&quality=lossless&width=730&height=1138"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.10.54.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -299,7 +299,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1157237226699227217/XAIGkSHabWn6DS-lCJMqesuDdsBTBzCWPRm3IYoXTE_tyjOAckguSN9so95QG7RHasXshJv22Yra3XIDRGwzZstKxbkMHS2iQIV5kAkJ9tvSDOXOaizUl0f1x9LV.png?ex=65ead0a7&is=65d85ba7&hm=2552a8e5a788dbfc59cc04304201fdf08441c335ea77ffe0afe4cf001b4f50b3&=&format=webp&quality=lossless&width=730&height=1138"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.11.21.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -472,7 +472,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1145029781457469571/image.png?ex=65e35195&is=65d0dc95&hm=be23afcd14b9d770ff4a3a6220ff9d0aa480648004e89e333cc023c95feb93a2&=&format=webp&quality=lossless&width=554&height=700"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.11.47.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -487,7 +487,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1148675244324823080/image.png?ex=65e75a2f&is=65d4e52f&hm=116cfeb2d4ad20f96c80882dc81abe77d9eb6d6fc8813ab990a8d95b63dc068d&=&format=webp&quality=lossless&width=634&height=1138"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.12.14.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -502,7 +502,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1145030878402187344/image.png?ex=65e3529b&is=65d0dd9b&hm=8405cc8bb0b9b91fbb9836fffa925ff774b6a78e464b014a6f29960fd6f1e2f5&=&format=webp&quality=lossless&width=1996&height=560"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.12.44.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -522,7 +522,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1145031538250104972/image.png?ex=65e35338&is=65d0de38&hm=5c081f5681abfaace71bbf4a90482bcc894d904ed89f764a83b053153ee65254&=&format=webp&quality=lossless&width=702&height=1138"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.13.28.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -539,7 +539,7 @@ const InstructionButton: React.FC = () => {
                 </h3>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1145032104506294393/image.png?ex=65e353bf&is=65d0debf&hm=434354e1db40c327c23dc766df109194c38defcabe07b04288b5903b9fa5875d&=&format=webp&quality=lossless&width=1524&height=760"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.13.56.png"
                   alt="Map Example"
                   width={400}
                   height={400}
@@ -547,7 +547,7 @@ const InstructionButton: React.FC = () => {
                 ></img>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://media.discordapp.net/attachments/1133782115708833933/1145032162698076221/image.png?ex=65e353cd&is=65d0decd&hm=5b0dc8f611a2389287b3d7e8c2993f4a866a08c3839151511d0e5d1926379e0c&=&format=webp&quality=lossless&width=1100&height=516"
+                  src="https://husion.s3.ap-southeast-1.amazonaws.com/Screen+Shot+2568-02-11+at+21.14.28.png"
                   alt="Map Example"
                   width={400}
                   height={400}
