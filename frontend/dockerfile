@@ -1,0 +1,36 @@
+# Use a Debian-based amd64 image as the base image
+FROM --platform=linux/amd64 debian:bullseye
+
+# Add new repository for Node.js and yarn
+RUN apt-get update && apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - 
+RUN curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+RUN echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | tee /etc/apt/sources.list.d/yarn.list
+
+# Install Node.js and Yarn
+RUN apt-get update && apt-get install -y nodejs yarn
+
+# Set the working directory
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY ./package.json ./package.json
+RUN yarn install
+
+# Copy the rest of the application files
+COPY . .
+
+# Set environment variables
+ARG NEXT_PUBLIC_SERVER_URL
+ENV NEXT_PUBLIC_SERVER_URL $NEXT_PUBLIC_SERVER_URL
+
+# Build the application
+RUN yarn build
+
+# Expose the application port
+EXPOSE 3000
+
+RUN cp -r /app/.next /app/_next
+
+# Run the application
+CMD ["yarn", "start"]
