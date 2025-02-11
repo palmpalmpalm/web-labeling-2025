@@ -20,7 +20,7 @@ import { getMe } from "@/api/user";
 
 const LabelPage: React.FC = () => {
   const router = useRouter();
-  const defaultSelectedLabel = ["no", "no", "no", "no"];
+  const defaultSelectedLabel = ["no", "no", "no", "no", "no", "no", "no"];
   const [selectedLabel, setSelectedLabel] =
     useState<string[]>(defaultSelectedLabel);
   const [unlabelledData, setUnlabelledData] = useAtom(unlabelledDataAtom);
