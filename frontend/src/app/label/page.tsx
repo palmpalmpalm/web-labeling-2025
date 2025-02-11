@@ -20,7 +20,6 @@ import { getMe } from "@/api/user";
 
 const LabelPage: React.FC = () => {
   const router = useRouter();
-  const defaultSelectedLabel = ["no", "no", "no", "no", "no", "no", "no"];
   const [selectedLabel, setSelectedLabel] =
     useState<string[]>(defaultSelectedLabel);
   const [unlabelledData, setUnlabelledData] = useAtom(unlabelledDataAtom);
@@ -41,6 +40,7 @@ const LabelPage: React.FC = () => {
   // const answerOptionsShow = ["in", "near", "far from", "in front of"];
   const answerOptions = ["next", "at", "outside", "adjacent", "within", "around", "by"];
   const answerOptionsShow = ["next to", "at", "outside", "adjacent to", "within", "around", "by"];
+  const defaultSelectedLabel = Array(answerOptions.length).fill("no");
   const handleOptionChange = (optionIndex: number, value: string) => {
     setSelectedLabel((prevSelected) => {
       const newSelected = [...prevSelected];
