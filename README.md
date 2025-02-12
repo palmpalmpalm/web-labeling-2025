@@ -57,10 +57,12 @@ yarn start:dev
 
 
 ## Project Structure
+```
 web-labeling/
 ├── frontend/ # Next.js frontend application
 ├── backend/ # NestJS backend application
 └── docker-compose.yaml
+```
 
 ## Features
 
