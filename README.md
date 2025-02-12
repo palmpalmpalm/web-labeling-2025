@@ -1,52 +1,78 @@
-# web-labeling
+# Web Labeling Application
 
-### Backend development
+A web application for spatial relation labeling with Next.js frontend, NestJS backend, and PostgreSQL database.
 
-To start developing backend application run these following steps
+## Prerequisites
 
-1. Download Docker Desktop from [Download Docker Desktop Here](https://docs.docker.com/compose/install/)
+- Docker and Docker Compose
+- Node.js (for local development)
+- Git
 
-2. Start database instance using docker compose
+## Quick Deployment
 
-   ```bash
-   docker compose up -d
-   ```
+### 1. Clone the Repository
 
-   For closing docker-compose
 
-   ```
-   docker compose down
-   ```
+### 2. Environment Setup
 
-3. Make sure that you create `.env` file using `.env.example` template
+Create a `.env` file in the root directory with the same as `.env.example`.
 
-4. Install all package
 
-   ```
-   pnpm install
-   ```
+### 3. Docker Deployment
 
-5. Run prisma reset
+For production deployment:
 
-   ```
-   pnpm prisma migrate reset
-   ```
+```bash
+docker compose up -d
+```
 
-6. Start Nestjs
+For local development:
 
-   ```
-   pnpm start:dev
-   ```
+```bash
+docker compose up
+```
 
-### Frontend development
 
-1. Make sure that you create `.env.local` file using `.env.local.example` template
+The application will be available at:
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
+- Database: localhost:5432
 
-2. Install all package
-   ```
-   pnpm install
-   ```
-3. Start Next
-   ```
-   pnpm dev
-   ```
+### 4. Local Development
+
+#### Frontend
+
+```bash
+cd frontend
+npm run dev
+```
+
+#### Backend
+
+```bash
+cd backend
+yarn install
+yarn start:dev
+```
+
+
+## Project Structure
+web-labeling/
+├── frontend/ # Next.js frontend application
+├── backend/ # NestJS backend application
+└── docker-compose.yaml
+
+## Features
+
+- User authentication
+- Spatial relation labeling interface
+- PostgreSQL database integration
+- Docker containerization
+- Environment configuration
+
+## Technologies
+
+- Frontend: Next.js, TypeScript, Tailwind CSS
+- Backend: NestJS, Prisma ORM
+- Database: PostgreSQL
+- Containerization: Docker
